@@ -1,0 +1,169 @@
+/* body */
+
+body{
+  background-color: #fff5fb;
+  color: #222;
+  font-family: 'Poppins', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  color: #E0218A;
+}
+
+.navbar-brand:hover{
+  opacity: 0.9;
+}
+
+.navbar .nav-link{
+  color: #333;
+}
+
+.navbar .nav-link:hover{
+  color: #E0218A;
+  text-decoration: underline;
+}
+
+.navbar .nav-link.active{
+  color: #E0218A !important;
+  font-weight: 600;
+}
+
+.navbar-toggler-icon{
+  background-image: var(--bs-navbar-toggler-icon-bg);
+}
+
+/* headings + section titles */
+
+.section-title{
+  font-weight: 800;
+  margin: 0 0 0.75rem 0;
+  color: #E0218A;
+}
+
+.centered{
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centered ul{
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+}
+
+#SkillTags{
+  justify-content: center;
+}
+
+/* skills btn */
+.btn-outline-primary{
+  color:#E0218A;
+  border-color:#E0218A;
+}
+.btn-outline-primary:hover{
+  background:#ffe0f0;
+  border-color:#E0218A;
+}
+
+/* links & buttons */
+
+a{
+  color: #E0218A;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* primary btn */
+
+.btn-primary{
+  background:#E0218A;
+  border-color: #E0218A;
+}
+
+.btn-primary:hover{
+  filter:brightness(0.95);
+}
+
+/* skills tags */
+
+.tag{
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.tag:hover{
+  background: #ffe0f0;
+}
+
+.tag.active{
+  background: #E0218A;
+  color: #fff;
+  border-color: #E0218A;
+}
+
+/* project cards */
+
+.project-card{
+  border:1px solid #f3c4dc;
+  border-radius: 12px;
+}
+
+.project-card:hover{
+  border-color: #E0218A;
+}
+
+.card-img-top{
+  height: 280px;
+  object-fit: contain;
+  width: 100%;
+}
+
+/* form */
+
+.form-control:focus{
+  border-color: #E0218A;
+  box-shadow: 0 0 0 0.2rem rgba(224, 33, 138, 0.25);
+}
+
+.is-invalid{
+  border-color: #dc3545 !important;
+}
+
+/* footer */
+
+footer{
+  background: #fff;
+  border-top: 1px solid #f3c4dc;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+footer a{
+  color: #E0218A;
+}
+
+
+
+@media (max-width:576px){
+  header h1{font-size: 1.75rem;
+  }
+  .section-title{
+    font-size:1.5rem;
+  }
+}
